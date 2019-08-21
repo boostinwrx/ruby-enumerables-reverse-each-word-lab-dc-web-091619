@@ -1,5 +1,5 @@
 
-def reverse_each_word(s = "This is a sentence")
+def reverse_each_word(s)
 array = s.split(" ").collect{|w|return"#{w.each}"}
 }
 return array
