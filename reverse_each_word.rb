@@ -5,4 +5,4 @@ array = s.split(" ").collect{|w|w}
 
 end
 
-reverse_each_word()
+reverse_each_word("this")
