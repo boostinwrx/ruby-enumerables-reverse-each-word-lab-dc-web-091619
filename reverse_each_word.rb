@@ -1,7 +1,5 @@
 
 def reverse_each_word(s ="This is a sentence")
   array = []
-array = s.split(" ").{|w|w}
-}
-return array
+array <<
 end
