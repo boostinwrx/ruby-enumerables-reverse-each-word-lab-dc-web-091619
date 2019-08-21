@@ -1,7 +1,7 @@
 
 def reverse_each_word(s = "This is a sentence")
 array = []
-array << s
+array s
 end
 
 reverse_each_word()
