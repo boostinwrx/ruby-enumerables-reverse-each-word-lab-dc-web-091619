@@ -1,8 +1,6 @@
 
 def reverse_each_word(s)
   array = []
-array << s
-array.split(" ")do|w|
-return w
+array = "#{s}".split(" ").collect{|w|w}
 end
 end
