@@ -1,6 +1,6 @@
 
 def reverse_each_word(s)
 array = []
-array = s.split(' ').collect{|w| array << w.reverse  }
+array = s.split(' ').collect{|w| w.reverse  }
 return array
 end
