@@ -1,5 +1,6 @@
 
 def reverse_each_word(s)
-array = s.split(' ').each{|w| array << w.reverse  }
+array = []
+array = s.split(' ').collect{|w| array << w.reverse  }
 return array
 end
